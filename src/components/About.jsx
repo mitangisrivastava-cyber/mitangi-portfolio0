@@ -1,4 +1,3 @@
-
 function About({data}) {
   return (
     <section id="about" className="section">
@@ -10,11 +9,11 @@ function About({data}) {
         </div>
 
         <div className="card">
-          <h3>Intrests</h3>
+          <h3>Interests</h3>
           <div className="badges">
             {
               data.interests.map((item)=>(
-<span className="badge" key={item}>{item}</span>
+                <span className="badge" key={item}>{item}</span>
               ))
             }
           </div>

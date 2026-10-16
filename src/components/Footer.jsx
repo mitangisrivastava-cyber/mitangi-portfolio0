@@ -4,7 +4,7 @@ function Footer({name,socials}) {
   return (
     <footer className="footer">
       <div className="container footer-inner">
-        <p>2026{name}. Thanks for visiting</p>
+        <p>2026 {name}.Thanks for visiting!</p>
         <div className="social-icons">
           <a className="icon-link" href={socials.github}><Github size={18} /></a>
           <a className="icon-link" href={socials.linkedin}><Linkedin size={18} /></a>

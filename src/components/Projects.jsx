@@ -7,11 +7,11 @@ function Projects({projects}) {
         <h2 className="section-title">Featured<span className="gradient-text">Projects</span></h2>
 
         <div className="grid project-grid">
-          {
-            projects.map((project)=>(
-              <ProjectCard key={project.id}project = {project}/>
-            ))
-          }
+       {
+        projects.map((project)=>(
+             <ProjectCard  key={project.id}project = {project}/>
+        ))
+       }
         </div>
       </div>
     </section>
@@ -19,3 +19,4 @@ function Projects({projects}) {
 }
 
 export default Projects;
+
